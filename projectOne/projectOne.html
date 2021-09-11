@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUMA Sneakers Landing Page</title>
+    <link rel="stylesheet" href="projectOne.css"/>
+</head>
+<body>
+    <!-- This is my first web project on github. I am a beginner who love to code and design. -->
+    <nav>
+        <div class="logo">
+            <a href="projectOne.html"><img src="images/pumalogo2.jpg" alt="Puma logo"></a>
+        </div>
+        <div class="menuContainer">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+           
+        </div>
+    </nav>
+
+    <!-- start body section -->
+    <div class="bodyContainer">
+    <div class="bodyPart">
+        <h1>
+           
+                Bring power to your steps
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quia id ea quasi ad non neque sunt obcaecati consectetur quod <br> recusandae laboriosam, facilis deleniti ratione corporis sed. <br> Veniam eligendi dolor tenetur!
+        </p>
+        <a href="#">See More</a>
+    </div>
+    <div class="bodyPic">
+        <img src="images/puma1.jpg" alt="" class="puma1big">
+    </div>
+    </div>
+    
+    <!-- end body section -->
+    <div class="choose">
+        <a href="#"><img src="images/puma1.jpg" alt="puma1" width="100px" onmouseover="changeMe('images/puma1.jpg')"></a>
+        <a href="#"><img src="images/puma2.jpg" alt="puma2" width="100px" onmouseover="changeMe('images/puma2.jpg')"></a>
+        <a href="#"><img src="images/puma3.jpg" alt="puma3" width="100px" onmouseover="changeMe('images/puma3.jpg')"></a>
+    </div>
+    <script type="text/javascript">
+        function changeMe(choosepic){
+            document.querySelector(".puma1big").src = choosepic;
+            
+        }
+       
+        
+    </script>
+</body>
+</html>
